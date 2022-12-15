@@ -142,6 +142,7 @@ h2 {
     height: 250px;
     margin-top: 20px;
     border-radius: 20px;
+    max-width: 95%;
 }
 
 /*These three containers are responsible for the styling in the "Contact Me" section.*/
