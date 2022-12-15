@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+/*This sets the default font family, margin, page background color, and text color for anything not specified in a class*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+/*These two classes set the styling for all links on the page.*/
+a:link, a:visited, a:active {
+    color: White;
+}
+
+a:hover {
+    color: #FFB03A;
+}
+
+/*These classes are responsible for the header styling and gradient text in the h1. Also sets the location for the picture and h2.*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titles {
+    display: flex;
+}
+
+.selfie {
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+h1 { 
+    font-size:50px;
+    font-family: 'Pacifico', cursive;
+    align-self: center;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 10px;
+} 
+
+h2 {
+    align-self: center;
+}
+
+/*Allows the nav to be placed on the right hand of the page.*/
+.subtitle {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*These three classes below are responsible for the entire "About Me" section.*/
+.biocontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aboutme {
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.bio {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/*These three classes below are responsible for holding the entire "Wrok" section.*/
+.workcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.work {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/*This class was made so that I could get the placement right for the hero'd photo in the work section.*/
+.projects1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*This class was made to get the placement correct for any further additions to the work section.*/
+.projects2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/*This class was need within the ".projects2" class for placement reasons.*/
+.projects2child {
+    display: flex;
+    width: 40%;
+}
+
+/*These two classes control the sizing for the screenshots of my work samples.*/
+.bigpic {
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.smallpic {
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/*These three containers are responsible for the styling in the "Contact Me" section.*/
+.contactmecontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contactme {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.contactinfo {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
