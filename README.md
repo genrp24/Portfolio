@@ -16,7 +16,7 @@ There are no installation steps, this site can be reached at https://genrp24.git
 
 The webpage has three sections including a bio, projects and contact section. Users can navigate to each section by using the nav bar on the top right of the header. Below is a screenshot of what a user should see when visiting the page.
 
-![Finished Portfolio](/assets/images/portfolio.png)
+<br><img src="./assets/images/Portfolio.png" alt="Portfolio screenshot" width=600 height=450>
 
 ## Credits
 
